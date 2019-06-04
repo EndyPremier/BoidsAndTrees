@@ -1,10 +1,15 @@
 # BoidsAndTrees
 
 **Term:** Junior Spring 2018
+
 **Course:** CS461 - Computer Game Programming
+
 **Date:** Feb - Mar 2018
+
 **Tool:** Visual Studio
+
 **Language:** C++
+
 **Library:** OpenGL
 
 * Created and implemented deterministic L-System grammar to produce an
