@@ -1,4 +1,4 @@
-# BoidsAndTrees
+# Procedural Modelling and Animation
 
 **Term:** Junior Spring 2018  
 **Course:** CS461 - Computer Game Programming  
