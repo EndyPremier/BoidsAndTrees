@@ -1,0 +1,12 @@
+﻿  plant.cpp
+c:\users\endy iskandar imam\documents\school\junior spring 2018\compsci461\assignments\a2\00-workingproject\a2-proceduralmodeling\plant.cpp(168): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\endy iskandar imam\documents\school\junior spring 2018\compsci461\assignments\a2\00-workingproject\a2-proceduralmodeling\plant.cpp(172): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+  camera.cpp
+  boids.cpp
+c:\users\endy iskandar imam\documents\school\junior spring 2018\compsci461\assignments\a2\00-workingproject\a2-proceduralmodeling\boids.cpp(165): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  modelerui.cxx
+  modelerdraw.cpp
+  modelerapp.cpp
+  modeler.vcxproj -> C:\Users\Endy Iskandar Imam\Documents\SCHOOL\Junior Spring 2018\CompSci461\Assignments\A2\00-WorkingProject\A2-ProceduralModeling\.\Debug\modeler.exe

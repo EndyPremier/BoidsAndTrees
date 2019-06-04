@@ -1,0 +1,48 @@
+============================================================
+ Assignment 2 : Procedural Modeling
+ by Endy Iskandar Imam
+============================================================
+
+  For the entire project, I essentially worked on much of
+the major project requirements and nothing more in terms of
+Beacons or what not.
+  For the plant, I implemented the basic L-System remini-
+scent of the sample program. Given an L-System Grammar
+G = (V,w,P) where:
+
+  V := {0,1,[,],/,+,-} where
+       0 = Branch
+       1 = Leaf
+       [ = push matrix
+       ] = pop matrix
+       / = turn around branch of deg(360/b)
+       + = push angle
+       - = pop angle
+  ω := 1
+  P := 1 -> 0[+(1/)^b-1] where
+       b = the number of branch
+
+  (EX.)
+  b = 3
+
+  n | w
+  0 | 1
+  1 | 0[+1/1/1/-1]
+  2 | 0[+0[+1/1/1/-1]/0[+1/1/1/-1]/
+      0[+1/1/1/-1]/-0[+1/1/1/-1]]
+
+  And much of the rendering was all done in PlantModeler:
+:draw() in plant.cpp and branch scaling is all done in
+scalar transformation and colors of both branches and leaves
+can have their colors be modified by RGB coloring.
+  As for boids, I implemented much of the required forces
+for the boids, including separation with minimum distance
+setting, alignment & cohesion under perception settings,
+goals with an array of (invisible) points in the scenes, and
+bounding in the scene. And speaking of bounding, I also use
+the same algorithm to pushing boids off of the tree to keep
+them visible. Rendering visualization of orientation are
+done with the use of finding axis of rotation via cross
+product and angle of rotation via length and dot product.
+Also note, orientation are computed via the computation of
+velocity.
